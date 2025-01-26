@@ -1,3 +1,7 @@
+/**
+ * Required environment variables: REACT_APP_PROVIDER_URL, REACT_APP_SITE_RECAPTCHA_KEY
+ */
+
 import React from 'react'
 import Web3Provider, { Connectors } from 'web3-react'
 import WalletConnectApi from '@walletconnect/web3-subprovider'

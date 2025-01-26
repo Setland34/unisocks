@@ -1,3 +1,7 @@
+/**
+ * Required environment variable: FAUNADB_SERVER_SECRET
+ */
+
 import { ethers } from 'ethers'
 const faunadb = require('faunadb')
 
