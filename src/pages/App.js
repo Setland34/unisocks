@@ -8,6 +8,7 @@ import Web3ReactManager from '../components/Web3ReactManager'
 import AppProvider from '../context'
 import Main from './Main'
 
+// This file requires the environment variable REACT_APP_PROVIDER_URL to be set.
 const PROVIDER_URL = process.env.REACT_APP_PROVIDER_URL
 
 const { NetworkOnlyConnector, InjectedConnector, WalletConnectConnector } = Connectors
