@@ -1,3 +1,7 @@
+/**
+ * Note: FAUNADB_SERVER_SECRET should be defined in the .env file
+ */
+
 import { ethers } from 'ethers'
 const faunadb = require('faunadb')
 
