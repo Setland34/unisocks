@@ -8,6 +8,8 @@ import Web3ReactManager from '../components/Web3ReactManager'
 import AppProvider from '../context'
 import Main from './Main'
 
+// Note: REACT_APP_PROVIDER_URL and REACT_APP_SITE_RECAPTCHA_KEY should be defined in the .env file
+
 const PROVIDER_URL = process.env.REACT_APP_PROVIDER_URL
 
 const { NetworkOnlyConnector, InjectedConnector, WalletConnectConnector } = Connectors
