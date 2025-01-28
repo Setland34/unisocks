@@ -1,4 +1,5 @@
 import { ethers } from 'ethers'
+import { log } from 'forge-std'
 const faunadb = require('faunadb')
 
 const q = faunadb.query
@@ -26,6 +27,10 @@ function returnSuccess(data, statusCode = 200) {
     statusCode,
     body: JSON.stringify(data)
   }
+}
+
+function logMessage(message) {
+  log(message)
 }
 
 export async function handler(event) {
